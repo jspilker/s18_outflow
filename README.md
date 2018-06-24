@@ -1,4 +1,5 @@
 This repository contains the data products and lens modeling results and inputs from Spilker et al. (2018).
+If there's anything not posted here that you'd like, just send me an email.
 
 dataproducts
 ------------
@@ -24,4 +25,6 @@ lensinputs
 ----------
 
 This folder has the binary visibility data in the format our lensing code uses, and an XML parameters file showing how
-to create the reconstructions from those data inputs. A binary executable of the lensing code is hosted at XXX.
+to create the reconstructions from those data inputs. A binary executable of the lensing code is hosted 
+[here](https://github.com/yasharhezaveh/Ripple/releases). Note that you'll need a working MPI installation, GSL,
+and the [Elemental](http://libelemental.org/) linear algebra library. 
